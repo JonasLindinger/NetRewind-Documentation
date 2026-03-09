@@ -1,10 +1,10 @@
 # Getting started
 
-## 1. Import
+## Import
 1. Import Netcode for GameObjects
 2. Import the NetRewind package
 
-## 2. Set Up
+## Set Up
 1. Create a GameObject
 2. Add NetRunner Component along with the NetworkManager and the Transport of your choice.
 3. Assign your Transport and NetworkManager
@@ -14,7 +14,7 @@
 So in order for NetRewind to work, you need to go to your Build Profiles (File/Build Profiles) and press Build Profile, if you don't have one already. I recommend creating 3 Profiles. One for Server, one for client and one for client with host capabilitys. For the Server Profile, i would recommend choosing a Dedicated Server Build. On the Profiles search for "Scripting Defines" and press "+". Type "Server" or "Client" depending on your build. For the Host Build (Client with hosting capabilitys), add "Server" and "Client" as seperate Definitions. Warning: The Definitions are case sensitive! After that select the build you want to develop (I would choose the Host, since it grants you the full controll while programming) and click Switch Profile in the bottom right corner. Your Project probably needs a few seconds to load the scripts.
 
 
-## 3. Start Programming
+## Start Programming
 
 ### Start Server
 Now you can start programming. To start a server, client or host, don't call it via the NetworkManager. 
