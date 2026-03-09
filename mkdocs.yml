@@ -29,13 +29,6 @@ theme:
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
-      pygments_lang_class: true
-      extend_pygments_lang:
-        - name: csharp
-          lang: csharp
-          aliases:
-            - cs
-            - c#
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - admonition

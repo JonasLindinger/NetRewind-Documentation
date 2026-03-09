@@ -20,7 +20,7 @@ So in order for NetRewind to work, you need to go to your Build Profiles (File/B
 Now you can start programming. To start a server, client or host, don't call it via the NetworkManager. 
 
 Call it like this:
-``` csharp
+```csharp
 NetRewind.GetInstance().Run(RunType.Server);
 ```
 
