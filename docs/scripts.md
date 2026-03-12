@@ -2,14 +2,15 @@
 
 ## NetObject
 
-Forbidden methods:
+### Don't use
 ``` csharp
 OnNetworkSpawn();
 OnNetworkDespawn();
 Update();
 ```
+!!! Don't use any other method you might be able to access without knowing what your doing. Many methods just have to be public for other scripts to be able to access them. If your unsure or are a more advanced user, you can just try to call some methods i didn' list and if it works, it works, if it doesn't it doesn't :) !!!
 
-### Methods your allowed to use
+### You can use
 
 ``` csharp
 HasInputForThisTick(uint tick);
