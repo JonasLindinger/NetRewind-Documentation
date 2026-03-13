@@ -8,3 +8,4 @@
 - Support the network structure for 2D Fighting games.
 - Net destroy -> destroy a object, after the buffer lost track of that object.
 - Cap the collider rollback. (Check if the collider is in buffer and a maximum of half a second ago, so that the players can't cheat.) 
+- Static variables need to be resettable!
